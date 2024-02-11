@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kupanda Expedition</title>
+    </head>
+
+    <body>
+            <h1>
+                Kupanda Expedition
+            </h1>
+            <p>
+                Your Adventure Begins Here <br> Dare to climb!
+            </p>
+    
+            <h2>
+                About Me
+            </h2>
+            <p>Welcome to Kupanda Expedition! I'm passionate about exploring new places and sharing my experiences with you - Specifically the Jungle.
+            </p>
+        
+            <h2>My Portfolio</h2>
+            <p>
+                Check out my latest adventures and expeditions:
+            </p>
+            <!-- Add your portfolio items here -->
+            <ul>
+                <li><a href="https://www.instagram.com/reel/C1-cIGtC3SK/?igsh=ajJlcDJ2dXYwOWw0">Adventure 1</a></li>
+                <li><a href="https://www.instagram.com/reel/C1-cIGtC3SK/?igsh=ajJlcDJ2dXYwOWw0">Adventure 2</a></li>
+                <li><a href="https://www.instagram.com/reel/C1-cIGtC3SK/?igsh=ajJlcDJ2dXYwOWw0">Adventure 3</a></li>
+            </ul>
+    
+            <h2>
+                Contact Me
+            </h2>
+            <p>
+                Reach out to me for collaboration or just to share your own travel stories!
+            </p>
+            <p>
+                Email: kupandaex@gmail.com
+            </p>
+            <p>
+                Phone: +233 542 1089 77
+            </p>
+        
+    
+        <footer>
+            &copy; 2024 Kupanda Expedition
+        </footer>
+
+</body>
+</html>

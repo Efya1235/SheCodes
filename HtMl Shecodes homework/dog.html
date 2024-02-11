@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#dogImageContainer {
+  margin-top: 20px;
+}
+
+#dogImageContainer img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dog API</h1>
+        <button onclick="getRandomDog()">Get Random Dog</button>
+        <div id="dogImageContainer"></div>
+    </div>
+    <script>
+        async function getRandomDog() {
+                const apiUrl = 'https://dog.ceo/api/breeds/image/random';
+
+                try {
+                    const response = await fetch(apiUrl);
+                    const data = await response.json();
+
+                    if (response.ok) {
+                        const dogImageContainer = document.getElementById('dogImageContainer');
+                        dogImageContainer.innerHTML = `<img src="${data.message}" alt="Random Dog">`;
+                    } else {
+                        console.error('Error fetching data:', data.message);
+                    }
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                }
+            }
+
+    </script>
+</body>
+
+</html>
